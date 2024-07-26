@@ -1,7 +1,17 @@
 from flask import Flask, render_template, request, session, redirect, url_for
+import mysql.connector
 
 
 app = Flask(__name__)
+
+app.config['SECRET_KEY'] = 'privatni-casovi-flask'
+
+mydb = mysql.connector.connect(
+    host='localhost',
+    user='root',
+    password='',
+    db='januar2022'
+)
 
 
 @app.route('/')
