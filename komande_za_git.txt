@@ -1,0 +1,13 @@
+git init -> kreira novi git directory
+
+git add . -> dodas izmene
+
+git checkout -> prelazak sa jedne na drugu granu
+
+git merge -> spaja dve grane u jednu 
+
+git commit 
+
+git push 
+
+git pull
