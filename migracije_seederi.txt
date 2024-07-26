@@ -1,0 +1,21 @@
+
+osmislis bazu
+pravis tabele 
+itd itd 
+
+gotova je baza
+-----------------
+
+migracije - kod koji ti kreira bazu, on takodje kreira i tabele 
+sql server managment studio
+ssms
+
+seederi - nakon napravljene baze (nakon izvrsene migracije), seeduje bazu podacima
+puni bazu podacima 
+
+user -> admin admin 
+
+user -> user user 
+
+user -> agent agent 
+
